@@ -30,7 +30,9 @@ app.add_middleware(
 
 @app.get("/")
 def home():
+
     return {"message": "Shopping Cart Backend API is running  - Main Branch"}
+
 
 @app.get("/health")
 def health_check():
