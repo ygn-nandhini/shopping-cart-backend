@@ -30,7 +30,7 @@ app.add_middleware(
 
 @app.get("/")
 def home():
-    return {"message": "Shopping Cart Backend API is running - Feature Branch"}
+    return {"message": "Shopping Cart Backend API is running - Squash Practice 3"}
 @app.get("/health")
 def health_check():
     return {"status": "healthy", "version": "1.0", "environment": "development"}
