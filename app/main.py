@@ -30,7 +30,7 @@ app.add_middleware(
 
 @app.get("/")
 def home():
-    return {"message": "Shopping Cart Backend API is running"}
+    return {"message": "Shopping Cart Backend API is running  - Git Pull Practice"}
 app.include_router(category.router)
 app.include_router(product.router)
 app.include_router(cart.router)
