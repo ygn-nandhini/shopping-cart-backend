@@ -33,8 +33,7 @@ def home():
     return {"message": "Shopping Cart Backend API is running  - Feature Branch"}
 @app.get("/health")
 def health_check():
-    return {"status": "healthy" ,"version": "1.0"}
-
+    return {"status": "healthy", "version": "1.0", "environment": "development"}
 app.include_router(category.router)
 app.include_router(product.router)
 app.include_router(cart.router)
